@@ -8,7 +8,7 @@ class  Dog
   end
   
   def bark=(dog_barks)
-    @dog_barks = puts "Woof!"
+    @dog_barks = {"puts" => "Woof!"}
   end
   
   def bark
