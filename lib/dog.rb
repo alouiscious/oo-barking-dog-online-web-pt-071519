@@ -7,7 +7,7 @@ class  Dog
     @dogs_name
   end
   
-  def bark=(dog_bark) = {"puts" => "woof!"}
+  def bark=(dog_bark = {"puts" => "woof!"})
     @dog_barks = dog_bark
   end
   
